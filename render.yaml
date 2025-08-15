@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: sshx-worker
+    env: docker
+    plan: free
+    buildCommand: ""
+    startCommand: ./start.sh
